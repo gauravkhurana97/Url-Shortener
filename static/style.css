@@ -1,0 +1,60 @@
+html {
+  height: 100vh;
+  position: relative;
+}
+
+body {
+  background-image: linear-gradient(to bottom right ,#a7ff85, #2a9600, #124100);
+  background-size: cover;
+}
+
+#url {
+  size: 100px;
+  height: 50px;
+  width: 600px;
+  font-family: Arial;
+  font-size: 25px;
+  margin-top: 2%;
+  margin-left: 25%;
+  border: 5px solid #124100;
+}
+
+.btn {
+  background: black;
+  border-radius: 15px;
+  font-family: sans-serif;
+  color: #ffffff;
+  font-size: 29px;
+  padding: 10px 20px;
+  text-decoration: black;
+  margin-top: 2%;
+  margin-left: 43%;
+}
+
+.btn:hover {
+  background: red;
+  text-decoration: none;
+}
+
+.mydiv {
+  align-self: center;
+  align-items: center;
+  font-family: "American Typewriter";
+  font-size: 30px;
+  font-style: inherit;
+  margin-top: 3%;
+  margin-left: 25%;
+
+}
+
+.center {
+  font-family: "American Typewriter";
+  font-size: 40px;
+}
+
+#footercontent {
+  position: absolute;
+  right: 5%;
+  top: 90%;
+  color: white;
+}
